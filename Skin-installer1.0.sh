@@ -385,7 +385,7 @@ while true; do
   show_banner
   show_menu
   printf "  请输入选项 [1-5]: "
-  read -r choice
+  read -r choice </dev/tty
 
   case "$choice" in
     1)
@@ -394,7 +394,7 @@ while true; do
       echo '  ── 安装中 ──'
       echo ''
       if [ -d "$SKIN_DIR" ]; then
-        read -p "  皮肤已存在，是否覆盖？(y/n): " confirm
+        read -p "  皮肤已存在，是否覆盖？(y/n): " confirm </dev/tty
         if [ "$confirm" != "y" ] && [ "$confirm" != "Y" ]; then
           echo ''
           press_esc_to_exit
@@ -416,7 +416,7 @@ while true; do
       echo ''
       echo "  当前主题色: $ACCENT"
       echo ''
-      read -p "  请输入新的十六进制颜色码 (如 #ff6633): " new_color
+      read -p "  请输入新的十六进制颜色码 (如 #ff6633): " new_color </dev/tty
       echo ''
       if validate_color "$new_color"; then
         ACCENT="$new_color"
