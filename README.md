@@ -24,11 +24,11 @@ A simple, rounded-corner theme for [Fcitx5](https://github.com/fcitx/fcitx5).
 
 ### 一键安装脚本
 
-附带交互式安装程序 `圆角简约安装程序`，提供菜单式操作：
+附带交互式安装程序 `Skin-installer`，提供菜单式操作：
 
 ```bash
-chmod +x "圆角简约安装程序"
-./圆角简约安装程序
+chmod +x "Skin-installer"
+./Skin-installer
 ```
 
 - **1. 安装** — 部署皮肤并启用，首次安装时创建默认备份
@@ -56,6 +56,8 @@ round-simple/
 ├── next.svg         # 下一页箭头
 ├── arrow.svg        # 子菜单箭头
 ├── radio.svg        # 复选框图标
+├── Skin-installer1.0     # 一键安装脚本
+├── Skin-installer1.0.md5 # 脚本校验值
 └── README.md
 ```
 
