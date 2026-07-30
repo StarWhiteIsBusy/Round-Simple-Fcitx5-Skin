@@ -22,24 +22,6 @@ A simple, rounded-corner theme for [Fcitx5](https://github.com/fcitx/fcitx5).
 
 ## 安装 / Installation
 
-### 手动安装
-
-```bash
-# 将主题目录链接或复制到 fcitx5 主题目录
-mkdir -p ~/.local/share/fcitx5/themes
-cp -r tlipoca ~/.local/share/fcitx5/themes/
-```
-
-### 使用主题
-
-编辑 `~/.config/fcitx5/conf/classicui.conf`：
-
-```ini
-Theme=tlipoca
-```
-
-重启 fcitx5 即可生效。
-
 ### 一键安装脚本
 
 附带交互式安装程序 `圆角简约安装程序`，提供菜单式操作：
@@ -49,16 +31,24 @@ chmod +x "圆角简约安装程序"
 ./圆角简约安装程序
 ```
 
-- **1. 安装** — 自动部署皮肤并启用，安装前自动备份
+- **1. 安装** — 部署皮肤并启用，首次安装时创建默认备份
 - **2. 配置颜色** — 自定义主题强调色（十六进制）
-- **3. 初始化皮肤** — 从备份恢复默认参数
-- **4. 卸载** — 删除皮肤并恢复默认主题
+- **3. 初始化皮肤** — 从默认备份恢复初始参数
+- **4. 卸载** — 删除皮肤和默认备份，恢复默认主题
 - 安装/配置后自动重启 fcitx5
+
+### 默认备份路径
+
+首次安装时自动备份至：
+
+```
+~/.local/share/fcitx5/Starwhite_themes_backup/
+```
 
 ## 文件结构 / File Structure
 
 ```
-tlipoca/
+round-simple/
 ├── theme.conf       # 主题配置文件
 ├── panel.svg        # 面板背景（深色圆角矩形）
 ├── highlight.svg    # 候选词高亮背景
