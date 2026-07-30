@@ -1,4 +1,4 @@
-# 圆角简约 / Round Simple（代号tlipoca）
+# 圆角简约 / Round Simple
 
 一款简约、圆角风格的 [Fcitx5](https://github.com/fcitx/fcitx5) 输入法皮肤。
 
@@ -69,7 +69,7 @@ tlipoca/
 └── README.md
 ```
 
-## 配色 / Color Palette（初始）
+## 配色 / Color Palette
 
 | 用途 | 颜色 |
 |---|---|
