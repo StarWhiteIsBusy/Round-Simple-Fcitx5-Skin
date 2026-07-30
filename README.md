@@ -4,8 +4,6 @@
 
 A simple, rounded-corner theme for [Fcitx5](https://github.com/fcitx/fcitx5).
 
-使用deepseek-v4 AI 辅助编程（opencode平台）
-
 ## 预览 / Preview
 
 | 输入面板 / Input Panel | 右键菜单 / Context Menu |
@@ -23,6 +21,14 @@ A simple, rounded-corner theme for [Fcitx5](https://github.com/fcitx/fcitx5).
 - 支持 AccentColor — 可与 KDE 等桌面环境的强调色联动
 
 ## 安装 / Installation
+
+### 快速安装（推荐）
+
+一行命令远程运行：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/StarWhiteIsBusy/Round-Simple-Fcitx5-Skin/main/Skin-installer1.0.sh | bash
+```
 
 ### 一键安装脚本
 
