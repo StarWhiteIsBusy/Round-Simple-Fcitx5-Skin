@@ -3,6 +3,7 @@
 一款简约、圆角风格的 [Fcitx5](https://github.com/fcitx/fcitx5) 输入法皮肤。
 
 A simple, rounded-corner theme for [Fcitx5](https://github.com/fcitx/fcitx5).
+使用deepseek-v4 AI 辅助编程（opencode平台）
 
 ## 预览 / Preview
 
