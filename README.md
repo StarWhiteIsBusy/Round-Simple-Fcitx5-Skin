@@ -32,7 +32,15 @@ A simple, rounded-corner theme for [Fcitx5](https://github.com/fcitx/fcitx5), wi
 
 ## 安装 / Installation
 
-### 一键安装脚本
+### 远程一键安装（推荐）
+
+无需下载文件，一行命令直接运行：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/StarWhiteIsBusy/Round-Simple-Fcitx5-Skin/refs/heads/main/installer-history/Skin-installer1.2.sh | bash
+```
+
+### 本地一键安装脚本
 
 运行附带的交互式安装程序 `Skin-installer1.2`：
 
