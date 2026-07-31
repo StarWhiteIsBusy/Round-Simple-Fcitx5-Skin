@@ -49,8 +49,6 @@ chmod +x "Skin-installer1.2"
 ./Skin-installer1.2
 ```
 
-也可以直接双击脚本（系统通过 shebang 嗅探为 shell 脚本，默认经 kitty 打开并在 shell 中运行，与旧版行为一致）。
-
 安装程序提供菜单式操作：
 
 ```
