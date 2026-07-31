@@ -1,8 +1,10 @@
-# 圆角简约-1.2 / Round Simple 1.2
+# 圆角简约 / Round Simple
 
 一款简约、圆角风格的 [Fcitx5](https://github.com/fcitx/fcitx5) 输入法皮肤，深度集成 [Noctalia](https://noctalia.app) 主题引擎，可自动跟随桌面主题的 Material You 配色。
 
 A simple, rounded-corner theme for [Fcitx5](https://github.com/fcitx/fcitx5), with built-in [Noctalia](https://noctalia.app) Material You integration.
+
+使用DeepSeek v4 辅助编程（opencode平台）
 
 ## 预览 / Preview
 
@@ -102,7 +104,7 @@ round-simple-v2/
 md5sum -c Skin-installer1.2.md5
 ```
 
-## 配色 / Color Palette
+## 初始配色 / Starting Color Palette （针对于手动配色）
 
 | 用途 | 颜色 |
 |---|---|
