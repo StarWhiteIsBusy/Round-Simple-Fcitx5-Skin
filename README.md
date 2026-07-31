@@ -63,7 +63,7 @@ chmod +x "Skin-installer1.2"
 - **更改横竖排布局**：选择后清屏显示 `1. 竖排布局` / `2. 横排布局`，当前生效项标有 `[✓]`；切换即修改 `classicui.conf` 的 `Vertical Candidate List` 并自动重启 fcitx5，按 ESC 返回菜单
 - 安装 / 配置 / 切换布局后自动重启 fcitx5
 
-### 手动切换横竖排
+### 手动切换横竖排输入法布局（基于fcitx5）
 
 不运行安装程序时，可自行编辑：
 
